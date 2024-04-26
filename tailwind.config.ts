@@ -19,6 +19,18 @@ const config = {
     },
     extend: {
       colors: {
+        dark: {
+          1: "#101113",
+          2: "rgba(32, 35, 38, 1)", 
+          3: "#2D3542",
+        },
+        gray: {
+          font: "#A0AEC0",
+          2: 'rgba(209, 230, 255, 0.15)'
+        },
+        main: {
+          1: "#E25319"
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
